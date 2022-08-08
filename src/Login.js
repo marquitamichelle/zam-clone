@@ -39,8 +39,8 @@ function Login() {
       <Link to="/">
         <img
           className="login__logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
-          alt=""
+          img src='https://drscdn.500px.org/photo/1052120516/m%3D900/v2?sig=21b9620d80b14d211d8da25db5ea987c276d551ff48098c2c9c025b20560db16'
+          alt='Final logo for capstone project by ZS Dorf on 500px.com'
         />
       </Link>
 
@@ -71,13 +71,13 @@ function Login() {
           </button>
 
           <p>
-            By signing-in you agree to the Mazon Conditions of Use and Sale.
+            By signing-in you agree to the Buy 'n' Sell Conditions of Use and Sale.
             Please see our Privacy Notice, our Cookies Notice and our
             Interest-Based Ads Notice.
           </p>
 
           <button onClick={register} className="login__registerButton">
-            Create your Amazon Account
+            Create your Buy 'n' Sell Account
           </button>
         </form>
       </div>

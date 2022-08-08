@@ -62,7 +62,7 @@ function Payment() {
             amount: paymentIntent.amount,
             created: paymentIntent.created,
           });
-
+ 
         setSucceeded(true);
         setError(null);
         setProcessing(false);

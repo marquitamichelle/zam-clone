@@ -12,7 +12,7 @@ function Checkout() {
       <div className="checkout__left">
         <img
           className="checkout__ad"
-          src="https://images-na.ssl-images-amazon.com/images/G/02/UK_CCMP/TM/OCC_Amazon1._CB423492668_.jpg"
+          src="https://spartacus-demo.eastus.cloudapp.azure.com:8443/medias/Elec-1400x140-Category10-EN-01-1400W.jpg?context=bWFzdGVyfGltYWdlc3wyMDIxOXxpbWFnZS9qcGVnfGltYWdlcy9oYmQvaDYwLzg3OTczMjkzMjYxMTAuanBnfDM5ZWUzNDIyOGMzZGE3MGFhNzIzY2NkYmFjYjIxMzFlMzYxMGQyNzcyOTI1ZmVkM2NlYzQzM2UxMTlhZTU5OGY"
           alt=""
         />
 

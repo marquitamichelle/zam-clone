@@ -8,58 +8,62 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          src="https://www.4sightassociates.com/wp-content/uploads/2021/06/ecommerce-image-e1623179968395.jpeg"
           alt=""
         />
 
         <div className="home__row">
           <Product
             id="12321341"
-            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
-            price={11.96}
-            rating={5}
-            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+            title="Waterpik Aquarius Water Flosser Professional For Teeth, Gums, Braces, Dental Care, Electric Power With 10 Settings, 7 Tips For Multiple Users And Needs, ADA Accepted, White WP-660
+            "
+            price={59.99}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/719pUQCxnmL._SL1500_.jpg"
           />
           <Product
             id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
+            title="Colgate Optic White Overnight Teeth Whitening Pen, Teeth Stain Remover to Whiten Teeth, 35 Nightly Treatments, 0.08 Fl Oz"
+            price={23.72}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+            image="https://m.media-amazon.com/images/I/71H2qSWwxqL._SX679_.jpg"
           />
         </div>
 
         <div className="home__row">
-          <Product
+
+        <Product
             id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
-            rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
-          />
-          <Product
-            id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
-            rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
-          />
-          <Product
+            title="2022 Apple iPhone SE (64 GB, Midnight) [Locked] + Carrier Subscription"
+            price={429.99}
+            rating={4}
+            image="https://m.media-amazon.com/images/I/61TOWf11+jL._FMwebp__.jpg"
+            />
+    
+        <Product
             id="3254354345"
             title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
             price={598.99}
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
           />
+
+          <Product
+            id="23445930"
+            title="2021 Apple MacBook Pro (14-inch, Apple M1 Pro chip with 8‑core CPU and 14‑core GPU, 16GB RAM, 512GB SSD) - Space Gray"
+            price={1799.99}
+            rating={5}
+            image="https://m.media-amazon.com/images/I/61vFO3R5UNL._AC_SL1500_.jpg"
+          />
         </div>
 
         <div className="home__row">
           <Product
             id="90829332"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
-            price={1094.98}
+            title="Sony 65 Inch 4K Ultra HD TV A80K Series: BRAVIA XR OLED Smart Google TV with Dolby Vision HDR and Exclusive Features for The Playstation® 5 XR65A80K- 2022 Model"            
+            price={1998.99}
             rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+            image="https://m.media-amazon.com/images/I/81JoZeM2V2L._AC_SX679_.jpg"
           />
         </div>
       </div>
