@@ -4,8 +4,10 @@ import { Link, useNavigate } from "react-router-dom";
 import { auth } from "./firebase";
 
 function Login() {
-  const history = useNavigate();
+  const navigate = useNavigate();
+
   const [email, setEmail] = useState("");
+
   const [password, setPassword] = useState("");
 
   const signIn = (e) => {
@@ -14,7 +16,7 @@ function Login() {
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
-        history.push("/");
+        navigate("/");
       })
       .catch((error) => alert(error.message));
   };
@@ -26,7 +28,7 @@ function Login() {
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
         if (auth) {
-          history.push("/");
+          navigate("/");
         }
       })
       .catch((error) => alert(error.message));
@@ -37,8 +39,8 @@ function Login() {
       <Link to="/">
         <img
           className="login__logo"
-          src
-          alt="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+          img src='https://drscdn.500px.org/photo/1052120516/m%3D900/v2?sig=21b9620d80b14d211d8da25db5ea987c276d551ff48098c2c9c025b20560db16'
+          alt='Final logo for capstone project by ZS Dorf on 500px.com'
         />
       </Link>
 
@@ -48,7 +50,7 @@ function Login() {
         <form>
           <h5>E-mail</h5>
           <input
-            type="text"
+            type="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -67,13 +69,17 @@ function Login() {
           >
             Sign In
           </button>
+
+          <p>
+            By signing-in you agree to the Buy 'n' Sell Conditions of Use and Sale.
+            Please see our Privacy Notice, our Cookies Notice and our
+            Interest-Based Ads Notice.
+          </p>
+
+          <button onClick={register} className="login__registerButton">
+            Create your Buy 'n' Sell Account
+          </button>
         </form>
-
-        <p>By signing-in you agree to the Amazon Terms and Conditions.</p>
-
-        <button onClick={register} className="login__registerButton">
-          Create your Amazon Account
-        </button>
       </div>
     </div>
   );
